@@ -1,0 +1,54 @@
+.category-type{
+    background-color: rgb(190, 183, 183);
+    width: auto;
+    height: 1200px;
+}
+.category{
+    width: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.card-cont:hover{
+    cursor: pointer;
+}
+
+.card-cont{
+    width: 280px;
+    height: 350px;
+    /* margin: 50px; */
+    /* padding: 30px; */
+    /* border: solid 3px #d3d3d3; */
+    margin: 30px 40px;
+    background-color: rgb(245, 231, 212);
+    padding:20px 10px;
+    border-radius: 5px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: teal; */
+    /* display: flex; */
+    /* object-fit: cover; */
+  }
+  .card-cont:hover{
+      background-color: rgb(247, 215, 168);
+    box-shadow: 0px 0px 20px 0px rgb(156, 153, 153);
+  }
+
+  .card-cont img{
+      border-radius: 5px;
+      width: 250px;
+      height: auto;
+      
+  }
+  .category{
+      /* border: 2px solid yellow; */
+      width: auto;
+      height: auto;
+      
+      /* background-image: url('../../Images/cool-4.jpg'); */
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap-reverse;
+      /* margin:0; */
+  }
+

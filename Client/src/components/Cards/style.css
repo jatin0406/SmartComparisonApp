@@ -1,0 +1,69 @@
+.card-container{
+    width: auto;
+    height: auto;
+    /* border: solid 3px #d3d3d3; */
+    margin: auto 40px;
+    background-color: rgb(245, 231, 212);
+    padding:20px;
+    border-radius: 20px;
+    /* background-color: teal; */
+    /* display: flex; */
+    /* object-fit: cover; */
+  }
+  .card-container:hover{
+    box-shadow: 0px 0px 20px 0px rgb(156, 153, 153);
+  }
+
+  .card-container img{
+      border-radius: 10px;
+      width: 250px;
+      height: auto;
+      
+  }
+  .gaga{
+      /* border: 2px solid yellow; */
+      width: auto;
+      height: auto;
+      
+      /* background-image: url('../../Images/cool-4.jpg'); */
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin:0;
+  }
+
+  .gaga .fa {
+    padding: 20px;
+    margin: 0 5px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+ 
+.gaga .fa:hover {
+    opacity: 2;
+    box-shadow: 0px 0px 20px 1px rgb(43, 43, 43);
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }

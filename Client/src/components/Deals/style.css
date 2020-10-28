@@ -1,0 +1,29 @@
+.each-fade > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .each-fade span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .image-container{
+    height: 600px;
+    padding: 30px auto;
+    margin: 120px 30px ;
+    /* margin-top: 30px; */
+  }
+  .slide-container img{
+    width: 70%;
+    height: 140%;
+  }
+  
+  img:hover{
+    cursor: pointer;
+  }

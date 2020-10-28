@@ -1,0 +1,40 @@
+.main-container{
+    background: url('../../Images/bg-01.jpg') no-repeat center center/cover;
+    /* border: 2px solid; */
+    /* height: 750px; */
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0%;
+    right: 0%;
+    padding-bottom: 113px;
+}
+h1{
+    padding: 30px;
+}
+.container{
+    /* border: 2px solid black; */
+    margin: 40px auto ;
+    background-color: white;
+    width: 35%;
+    text-align: center;
+    border-radius: 10px;
+    height: 500px;
+    box-shadow: 0px 0px 20px 1px rgb(139, 124, 124);
+    margin-top: 100px;
+    margin-bottom: 40px;
+    /* align-items: center; */
+}
+
+
+.form-main{
+    /* border: 2px solid black; */
+    width: 50%;
+   
+    margin: 50px auto;
+    /* margin-top: 60px; */
+}
+
+h4{
+    color: cadetblue;
+}
