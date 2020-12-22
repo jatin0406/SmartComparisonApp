@@ -1,0 +1,38 @@
+{
+    "mi10":{
+        "price1":43000,
+        "price2":40000,
+        "price3":38000,
+        "price4":35000,
+        "price5":43000,
+        "price6":43000,
+        "price7":43000,
+        "price8":43000,
+        "price9":43000,
+        "price10":43000
+    },
+    "iphone7":{
+        "price1":43000,
+        "price2":43000,
+        "price3":43000,
+        "price4":43000,
+        "price5":43000,
+        "price6":43000,
+        "price7":43000,
+        "price8":43000,
+        "price9":43000,
+        "price10":43000
+    },
+    "":{
+        "price1":"Not known",
+        "price2":"Not known",
+        "price3":"Not known",
+        "price4":"Not known",
+        "price5":"Not known",
+        "price6":"Not known",
+        "price7":"Not known",
+        "price8":"Not known",
+        "price9":"Not known",
+        "price10":"Not known"
+    }
+}

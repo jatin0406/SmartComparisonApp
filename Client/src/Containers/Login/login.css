@@ -31,10 +31,22 @@ h1{
     /* border: 2px solid black; */
     width: 50%;
    
-    margin: 50px auto;
+    margin: 40px auto;
     /* margin-top: 60px; */
 }
 
-h4{
+/* h4{
     color: cadetblue;
+} */
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 15px;
+    /* text-align: center; */
+}
+
+.forgot{
+    margin-top: 15px;
 }

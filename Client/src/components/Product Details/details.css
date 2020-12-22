@@ -1,0 +1,22 @@
+.pro-container{
+    display: flex;
+}
+.prod-image{
+    margin: 0;
+    /* border: 2px solid yellow; */
+    width: 35%;
+}
+.prod-image img{
+    padding: 15px;
+    /* border: 2px solid; */
+    width: 400px;
+    height: 500px;
+}
+.details{
+    background-color: rgb(239, 248, 255);
+    padding: 30px 70px;
+    padding-left: 150px;
+    /* text-align: center; */
+    width: 70%;
+    /* border: 2px solid black; */
+}

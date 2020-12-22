@@ -1,13 +1,18 @@
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+// import fire from './config/Fire';
+// import fire from '../../config/fire';
+
 import { Button, Grid, TextField } from '@material-ui/core'
 import { AccountCircle } from '@material-ui/icons'
-import React from 'react'
+// import React from 'react'
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 import './login.css'
 import { NavLink } from 'react-router-dom';
 
 function Login() {
     return (
-        <>
+      <>
         <div className="main-container">
         <div className="container">
         <h1>Login</h1>
@@ -19,7 +24,7 @@ function Login() {
             
           </Grid>
           <Grid item>
-            <TextField id="input-with-icon-grid" label="Username" />
+            <TextField id="input-with-icon-grid" label="E-mail"  />
           </Grid>
         </Grid>
         <Grid container spacing={2} alignItems="center">
@@ -28,11 +33,11 @@ function Login() {
             
           </Grid>
           <Grid item>
-            <TextField id="input-with-icon-grid" label="Password" />
+            <TextField id="input-with-icon-grid" label="Password"  name="password"  id="exampleInputPassword1"  />
           </Grid>
         </Grid>
        </div>
-        <Button size="large"  variant="contained" color="primary" >
+        <Button  size="large"  variant="contained" color="primary" >
             Login
         </Button>
         </form>
@@ -41,7 +46,8 @@ function Login() {
         </div>
         </div>
         </>
-    )
-}
 
-export default Login
+    );
+  }
+
+export default Login;
