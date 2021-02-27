@@ -7,6 +7,7 @@ import axios from 'axios';
 import amazon from "../../File/amazon.json"
 import flipkart from "../../File/flipkart.json"
 import { useHistory ,useLocation } from 'react-router-dom';
+import Categories from '../../components/Categories'
 
 class page extends React.Component {
   constructor(props){

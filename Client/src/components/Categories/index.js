@@ -1,5 +1,17 @@
 import React from "react";
 import "./style.css";
+import axios from 'axios';
+import amazon from "../../File/amazon.json"
+import flipkart from "../../File/flipkart.json"
+import ProductCard from "../ProductCard";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import { useHistory ,useLocation } from 'react-router-dom';
+import { withRouter } from 'react-router'
 
 const characters = [
   {
@@ -35,47 +47,46 @@ const characters = [
   {
     id: 6,
     Image : "fitness.jpg",
-    type: "Sports & Fitness",
+    type: "Sports",
     about: "Sports euipment for your fitness"
   },
 
 ];
 
-const CardListItem = props => {
-  return (
-    <li>
-      <div
-        className="card-cont">
-        <p>
-          <img src={require('../../Images/' + props.character.Image)} alt="Image" />
-          
-        </p>
-        <p><strong>{props.character.type}</strong></p>
-        
-        <p>{props.character.about}</p>
 
-      </div>
-    </li>
-  );
-};
-
-const CardList = () => {
-  return (
-    <ul className="category" style={{ listStyleType: "none" }}>
-      {characters.map(character => {
-        return <CardListItem character={character} key={character.id} />;
-      })}
-    </ul>
-  );
-};
-
-export default function Categories() {
+class Categories extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  handleCustomerClick(character) {
+    this.props.history.push(`/page?${character.type}`);
+  }
+  render(){
   return (
     <div className="category-type">
         <h1 className="primary center">Categories</h1>
       <div>
-      <CardList />
+        <ul className="category" style={{ listStyleType: "none" }}>
+          {characters.map(character => {
+            return(<li>
+            <div className="card-cont" onClick = {() => this.handleCustomerClick(character)}>
+            <p>
+              <img src={require('../../Images/' + character.Image)} alt="Image" />
+              
+            </p>
+            <p><strong>{character.type}</strong></p>
+            
+            <p>{character.about}</p>
+    
+            </div>
+           </li>
+            )
+          })}
+        </ul>
       </div>
     </div>
   );
+  }
 }
+
+export default withRouter(Categories)

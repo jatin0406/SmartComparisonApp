@@ -11,6 +11,7 @@ import UpdateProfile from "./UpdateProfile"
 import page from "../Containers/Pages/page"
 import details from "./Product Details"
 import productCard from "./ProductCard"
+import Categories from "./Categories"
 
 function App() {
   
@@ -29,6 +30,7 @@ function App() {
               <Route path="/product-details" component={details} />
               {/* <Route path="/keyword=" component={page} /> */}
               <Route path="/productCard" component={productCard} />
+              <Route path="/categories" component={Categories}/>
             </Switch>
           </AuthProvider>
         </Router>
