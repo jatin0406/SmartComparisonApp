@@ -5,4 +5,4 @@ This app compare the price of various e-commerce site and provide the best price
 ### ToDo
 Currently some e-commerce site api request is pending.
 
-News feed -  continuous technological news feed.
+News feed -  continuous technical news feed.
